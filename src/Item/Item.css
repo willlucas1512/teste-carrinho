@@ -1,0 +1,34 @@
+.item {
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+  padding-top: 16px;
+}
+
+.imagem {
+  border: 1px solid lightgrey;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.nome {
+  margin-bottom: 8px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.preco {
+  font-size: 12px;
+  font-weight: 600;
+  color: #a5a5a5;
+}
+
+.precoVenda {
+  margin-top: 3px;
+  font-weight: 600;
+  font-size: 14px;
+}
